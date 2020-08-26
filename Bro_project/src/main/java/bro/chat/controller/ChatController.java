@@ -41,8 +41,7 @@ public class ChatController {
 
     @PostMapping("/room/new")
     public String makeRoom(ChatRoomForm form){
-        chatRoomRepository.createChatRoom(form.getName());
-
+        chatRoomRepository.createChatRoom(form.getRoomTitle(), form.getUserName(), form.getRoomPassword());
         return "redirect:/startchat";
     }
 

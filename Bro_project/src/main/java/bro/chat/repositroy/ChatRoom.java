@@ -15,17 +15,18 @@ import java.util.UUID;
 @Setter
 public class ChatRoom {
     private String roomId;
-    private String name;
-    private int roomNo;
+    private String roomTitle;
+    private String userName;
+    private int roomPassword;
 
     private Set<WebSocketSession> sessions = new HashSet<>();
 
-    public static ChatRoom create(String name){
+    public static ChatRoom create(String roomTitle, String userName, int userPassword){
         ChatRoom chatRoom = new ChatRoom();
         chatRoom.roomId = UUID.randomUUID().toString();
-        chatRoom.name = name;
-        chatRoom.roomNo = chatRoom.roomNo++;
-        chatRoom.roomNo++;
+        chatRoom.roomTitle = roomTitle;
+        chatRoom.userName = userName;
+        chatRoom.roomPassword = userPassword;
 
 
         return chatRoom;
