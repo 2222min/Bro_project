@@ -23,8 +23,8 @@ public class ChatRoomRepository {
         return chatRoomMap.get(id);
     }
 
-    public ChatRoom createChatRoom(String roomTitle, String userName, int roomPassword){
-        ChatRoom chatRoom = ChatRoom.create(roomTitle, userName, roomPassword);
+    public ChatRoom createChatRoom(String roomTitle, String userName){
+        ChatRoom chatRoom = ChatRoom.create(roomTitle, userName);
         chatRoomMap.put(chatRoom.getRoomId(), chatRoom);
         return chatRoom;
     }

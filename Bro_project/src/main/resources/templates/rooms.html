@@ -19,7 +19,6 @@
             <th>세션번호</th>
             <th>방 제목</th>
             <th>방장 이름</th>
-            <th>비밀번호</th>
             <th>입장버튼</th>
         </tr>
         </thead>
@@ -28,7 +27,6 @@
             <td th:text="${room.roomId}"></td>
             <td th:text="${room.roomTitle}"></td>
             <td th:text="${room.userName}"></td>
-            <td th:text="${room.roomPassword}"></td>
 
             <td>
                 <a class = "btn btn-primary" th:href = "@{/rooms/{id} (id = ${room.roomId})}"></a>

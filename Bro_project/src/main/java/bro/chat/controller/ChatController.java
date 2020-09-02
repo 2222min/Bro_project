@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 public class ChatController {
     private final ChatRoomRepository chatRoomRepository;
 
-
     @GetMapping("/startchat")
     public String rooms(Model model){
         model.addAttribute("rooms",chatRoomRepository.findAllRoom());
@@ -27,9 +26,10 @@ public class ChatController {
 
     @GetMapping("/rooms/{id}")
     public String room(@PathVariable String id, Model model){
+
         ChatRoom room = chatRoomRepository.findRoomById(id);
         model.addAttribute("room",room);
-        return "room";
+            return "room";
     }
 
     @GetMapping("/new")
@@ -41,8 +41,9 @@ public class ChatController {
 
     @PostMapping("/room/new")
     public String makeRoom(ChatRoomForm form){
-        chatRoomRepository.createChatRoom(form.getRoomTitle(), form.getUserName(), form.getRoomPassword());
+        chatRoomRepository.createChatRoom(form.getRoomTitle(), form.getUserName());
         return "redirect:/startchat";
     }
+
 
 }
