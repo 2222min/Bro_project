@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns:sec="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">s
+    <meta name="viewpoint" content="width=device-width" initial-scale="1">
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <link rel="stylesheet" href="css/bro.css">
     <title>Title</title>
 </head>
 <body>
-<h1>hi</h1>
+<style type="text/css">
+    .jumbotron {
+        background-color: #ebebeb;
+        border-color: #ebebeb;
+        height: 400px;
+        width: 1200px;
 
-<a sec:authorize="hasRole('ROLE_MEMBER')" th:href="@{/user/info}">내정보</a>
+    }
+</style>
+
+<!--<a sec:authorize="hasRole('ROLE_MEMBER')" th:href="@{/user/info}">내정보</a>
 <a sec:authorize="hasRole('ROLE_MEMBER')" th:href="@{/startchat}">채팅참여</a>
 <a sec:authorize="hasRole('ROLE_ADMIN')" th:href="@{/admin}">어드민</a>
-<a sec:authorize="isAuthenticated()" th:href="@{/user/logout}">로그아웃</a>
+<a sec:authorize="isAuthenticated()" th:href="@{/user/logout}">로그아웃</a>-->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapse" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="main.html">Bro_</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="login.html">LOG IN</a> </li>
+                <!-- <li><a sec:authorize="isAuthenticated()" th:href="@{/user/logout}">로그아웃</a></li>-->
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="jumbotron" align="center">
+        <a href=""><img src="image/start.png" height="120px" style="margin: 10px" alt="시작하기"></a>
+        <a href=""><img src="image/cloud.png" height="120px" style="margin: 10px" alt="클라우드"></a>
+        <a sec:authorize="hasRole('ROLE_MEMBER')" th:href="@{/startchat}" href="rooms.html"><img src="image/chat.png" height="120px" style="margin: 10px" alt="채팅방"></a>
+        <a href=""><img src="image/search.png" height="120px" style="margin: 10px" alt="검색하기"></a>
+    </div>
+</div>
+<br>
+<footer class="footer">
+    <div class="container">
+        <br>
+        <div class="col-sm-12" style="text-align: center"><h5>Copyright &copy; 2020</h5><h5>bro_project</h5>
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
 </body>
 </html>
