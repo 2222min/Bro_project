@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce8423c1-b0f2-4be9-8670-9e169d844f0f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fZqJS6YgolLvVpAEeaStuP9KWh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/haarcascades" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/venv/haarcascades" />
+      <recent name="$PROJECT_DIR$/venv" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/venv/haarcascades" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="opencv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.opencv" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce8423c1-b0f2-4be9-8670-9e169d844f0f" name="Default Changelist" comment="" />
+      <created>1596435890776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596435890776</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="825" height="259" key="GridCell.Tab.0.bottom" timestamp="1596445197641">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="825" height="259" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1596445197641" />
+    <state width="825" height="259" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1596440647783" />
+    <state width="825" height="259" key="GridCell.Tab.0.center" timestamp="1596445197640">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="825" height="259" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1596445197640" />
+    <state width="825" height="259" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1596440647782" />
+    <state width="825" height="259" key="GridCell.Tab.0.left" timestamp="1596445197640">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="825" height="259" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1596445197640" />
+    <state width="825" height="259" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1596440647781" />
+    <state width="825" height="259" key="GridCell.Tab.0.right" timestamp="1596445197641">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="825" height="259" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1596445197641" />
+    <state width="825" height="259" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1596440647782" />
+    <state width="825" height="259" key="GridCell.Tab.1.bottom" timestamp="1596445197642">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="825" height="259" key="GridCell.Tab.1.bottom/0.23.1440.827@0.23.1440.827" timestamp="1596445197642" />
+    <state width="825" height="259" key="GridCell.Tab.1.bottom/0.23.1440.828@0.23.1440.828" timestamp="1596440647785" />
+    <state width="825" height="259" key="GridCell.Tab.1.center" timestamp="1596445197642">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="825" height="259" key="GridCell.Tab.1.center/0.23.1440.827@0.23.1440.827" timestamp="1596445197642" />
+    <state width="825" height="259" key="GridCell.Tab.1.center/0.23.1440.828@0.23.1440.828" timestamp="1596440647784" />
+    <state width="825" height="259" key="GridCell.Tab.1.left" timestamp="1596445197642">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="825" height="259" key="GridCell.Tab.1.left/0.23.1440.827@0.23.1440.827" timestamp="1596445197642" />
+    <state width="825" height="259" key="GridCell.Tab.1.left/0.23.1440.828@0.23.1440.828" timestamp="1596440647783" />
+    <state width="825" height="259" key="GridCell.Tab.1.right" timestamp="1596445197642">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="825" height="259" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1596445197642" />
+    <state width="825" height="259" key="GridCell.Tab.1.right/0.23.1440.828@0.23.1440.828" timestamp="1596440647785" />
+    <state x="250" y="128" key="SettingsEditor" timestamp="1596439358765">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="250" y="128" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1596439358765" />
+    <state x="108" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1596606385149">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="108" y="275" key="com.intellij.ide.util.TipDialog/0.23.1440.826@0.23.1440.826" timestamp="1596606385149" />
+    <state x="108" y="275" key="com.intellij.ide.util.TipDialog/0.23.1440.827@0.23.1440.827" timestamp="1596439169568" />
+  </component>
+</project>
